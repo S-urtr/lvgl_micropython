@@ -14,7 +14,7 @@ jobs:
         include:
           - board: ESP32_GENERIC_S3
             variant: SPIRAM_OCT
-            flash_size: 16
+            flash_size: 8
             display: st7789
             indev: ft6x36
           - board: ESP32_GENERIC_C3
